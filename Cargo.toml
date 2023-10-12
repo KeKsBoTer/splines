@@ -22,7 +22,7 @@ serialization = ["serde"]
 std = []
 
 [dependencies]
-cgmath = { version = ">=0.17, <0.19", optional = true }
+cgmath = { version = ">=0.17, <0.19", optional = true,  git = 'https://github.com/rustgd/cgmath'}
 glam = { version = ">=0.10, <0.25", optional = true }
 nalgebra = { version = ">=0.21, <0.33", optional = true }
 serde =  { version = "1", features = ["derive"], optional = true }
